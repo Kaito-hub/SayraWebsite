@@ -1,0 +1,13 @@
+Common across pages -
+Content should be editable in all the pages
+Should be able to upload photos easily
+- Set up a separate admin page where it enables everything, uploading photos with texts if necessary
+
+Database - 
+- Portfolio
+-- id
+-- photo
+-- caption
+-- dateAdded
+
+Admin page > Upload photos > site will display everything from there

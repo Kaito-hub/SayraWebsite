@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/regular.css">
+    <link rel="stylesheet" href="admin.css">
+    <title>Document</title>
+<script defer src="admin.js"></script></head>
+
+<body class="adminBody">
+    <div class="uploadBody">
+        <input type="file" class="imageInput" name="imageInput" id="imageInput"
+            accept="image/png, image/jpg, image/jpeg">
+        <label for="imageInput" class="imageLabel">+</label>
+        <p class="fileText"></p>
+        <button class="uploadImage" type="submit">Upload Image</button>
+        <div class="progressModal">
+            <h3>Loading...</h3>
+        </div>
+        <button class="btn closeUploadModal">Close</button>
+    </div>
+    
+    <button class="openUploadModal btn">Upload New Image</button>
+    <article class="adminArt">
+        <img src="assets/images/Logo.png" alt="random art" class="adminImg">
+        <h3 class="artName">Name of the art</h3>
+        <i class="fa-regular fa-pen-to-square"></i>
+        <p class="deleteBtn">Delete</p>
+    </article>
+    <article class="adminArt">
+        <img src="assets/images/mushroomhangeredited.jpg" alt="random art" class="adminImg">
+        <h3 class="artName">Name of the art</h3>
+        <p class="editBtn"></p>
+        <p class="deleteBtn">Delete</p>
+    </article>
+
+</body>
+<script type="module" src="admin.js"></script>
+
+</html>

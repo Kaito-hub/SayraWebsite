@@ -1,0 +1,34 @@
+Components - 
+Home Page/Portfolio
+Commissions Page
+Store Page
+Contact Me/About Me
+Navbar/Sidebar
+
+Common across pages - 
+Navbar
+
+Navbar/Sidebar - 
+Links to all the pages
+Socials
+Laptop view will be sidebar / Mobile view will be hamburger
+brushstroke animate
+
+Home Page/Portfolio - 
+Should focus on her works she has done
+Could categorize them if there are enough photos(?)
+One liner to introduce them to the page (for mobile view)
+Hover images show captions
+infinte scroll animation
+
+Commissions Page - 
+Should show how the commissions generally work(refer anitatangoart.com/commissions)
+Could lead to her email or instagram
+If email or instagram style, should have a pre-written message like (Hi, I would like drawing!)
+add a text field with all the formatters
+
+Store Page(??)
+
+Contact Me/About Me - 
+Links to her socials
+Content is her. Photo is optional

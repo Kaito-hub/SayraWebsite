@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+i{
+    /* display: inline-block; */
+    /* height: 1rem; */
+    /* width: 1rem; */
+} 
+
+.adminBody{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+    position: relative;
+}
+
+.uploadBody{
+    display: none;
+  
+}
+
+.uploadBody.open{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.closeUploadModal{
+    margin-top: 0.5rem;
+}
+
+.openUploadModal{
+    margin: 3rem 0;
+
+}
+
+.imageInput{
+    display: none;
+}
+
+.imageLabel{
+    font-size: 100px;
+    background-color: black;
+    color: white;
+    margin-bottom: 0.5rem;
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.fileText{
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.uploadImage,.btn{
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: #ff5349;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.progressModal{
+    display: none;
+}
+
+.progressModal.open{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 60px -35px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 60px -35px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 60px -35px rgba(0,0,0,0.75);
+
+}   
+
+/* .progressModal::before{
+    content: "";
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+} */
+
+.uploadImageLabel{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.adminArt{
+    /* width: 100vw; */
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    padding: 1rem ;
+    position: relative;
+}
+
+.adminImg{
+    height: 100%;
+    /* outline: 1px solid red; */
+    width: 10%;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+.deleteBtn{
+    position: absolute;
+    right: 10px;
+}
+
+.editBtn{
+    position: absolute;
+    right: 60px;
+}
+
+
+
